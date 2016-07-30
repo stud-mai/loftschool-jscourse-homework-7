@@ -1,0 +1,79 @@
+@font-face{
+    font-family: FontAwesome;
+    src: url('fonts/FontAwesome.otf') format('opentype');
+    src: url('fonts/fontawesome-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font: 12pt "Comic Sans", Calibri, Consolas;
+}
+
+input{
+    width: 300px;
+}
+
+table {
+    margin: 10px;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+tr {
+    opacity: .8;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+tr:first-child{
+    opacity: 1;
+}
+
+th {
+    color: #fff;
+    background-color: #D3ECC6;
+    line-height: 30px;
+    height: 30px;
+    padding: 5px 0px;
+    border: 1px solid #76B941;
+    border-bottom: 2px solid #76B941;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    background: -webkit-linear-gradient(bottom,#d3ecc6, #4F7B2D);
+    background: -moz-linear-gradient(bottom,#d3ecc6, #4F7B2D);
+    background: -ms-linear-gradient(bottom,#d3ecc6, #4F7B2D);
+    background: -o-linear-gradient(bottom,#d3ecc6, #4F7B2D);
+    text-align: center;
+}
+
+td{
+    background-color: #D3ECC6;
+    line-height: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+td:first-child{
+    padding: 5px 10px;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    color: #436b23;
+}
+
+.fa:hover{
+    cursor: pointer;
+    color: #37c2c3;
+}
+
+.fa-trash:before {
+    content: "\f1f8";
+}
